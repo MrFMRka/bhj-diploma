@@ -39,18 +39,8 @@ class User {
       method: 'GET',
       data: data,
       responseType: 'json',
-      callback: (err, response) => {
-        if (err === null) {
-          if (response.success) {
-            this.setCurrent(response.user);
-          } else {
-            this.unsetCurrent();
-          }
-        }
-        return callback;
-      }
+      callback: callback
     };
-
     return createRequest(options);
   }
 

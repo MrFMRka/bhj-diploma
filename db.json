@@ -12,14 +12,14 @@
       "email": "fmr@fmr.pw",
       "password": "12345",
       "id": "2rgsmfs4m4knq4wkhr",
-      "isAuthorized": false
+      "isAuthorized": true
     },
     {
       "name": "MARAT",
       "email": "ivan@demo.ru",
       "password": "demo",
       "id": "2rgsmfslcknq58bq3",
-      "isAuthorized": true
+      "isAuthorized": false
     }
   ],
   "accounts": [
@@ -42,6 +42,16 @@
       "name": "test",
       "user_id": "2rgsmfslcknq58bq3",
       "id": "2rgsmfsa4cknq58nbp"
+    },
+    {
+      "name": "TEST 2",
+      "user_id": "2rgsmfslcknq58bq3",
+      "id": "2rgsmfs1osknsublnz"
+    },
+    {
+      "name": "tect",
+      "user_id": "2rgsmfs4m4knq4wkhr",
+      "id": "2rgsmfs5ocknsue5nh"
     }
   ],
   "transactions": [
@@ -227,6 +237,22 @@
       "sum": 1188,
       "account_id": "2rgsmfsa4cknq58nbp",
       "created_at": "2021-04-20T14:51:10.537Z"
+    },
+    {
+      "id": "2rgsmfs388knsuc2rg",
+      "type": "INCOME",
+      "name": "поплнил",
+      "sum": 700,
+      "account_id": "2rgsmfs1osknsublnz",
+      "created_at": "2021-04-22T12:08:00.507Z"
+    },
+    {
+      "id": "2rgsmfs790knsucmat",
+      "type": "EXPENSE",
+      "name": "минус",
+      "sum": 123,
+      "account_id": "2rgsmfs1osknsublnz",
+      "created_at": "2021-04-22T12:08:25.828Z"
     }
   ]
 }
